@@ -85,17 +85,40 @@ i {
 
 .item-img:nth-child(1) {
     background-size: cover;
-    background-image: url(../Img/items/anton-darius-wRMvOZ1CufQ-unsplash.jpg);
+    /* background-image: url(../Img/items/anton-darius-wRMvOZ1CufQ-unsplash.jpg); */
 }
 
 .item-img:nth-child(2) {
-    background-image: url(../Img/items/tandem-x-visuals-2yNMsw-A2eI-unsplash.jpg);
+    background-size: cover;
+    /* background-image: url(../Img/items/tandem-x-visuals-2yNMsw-A2eI-unsplash.jpg); */
 }
 
 .item-img:nth-child(3) {
-    background-image: url(../Img/items/tandem-x-visuals-2yNMsw-A2eI-unsplash.jpg);
+    background-size: cover;
+    /* background-image: url(../Img/items/tandem-x-visuals-2yNMsw-A2eI-unsplash.jpg); */
 }
-
+.shop-item-button{
+     color: #FF7B00;
+     font-size: 3rem;
+     
+}
+.shop-item-button:hover{
+    color:#FCA311;
+}
+.shop-item-price{
+    font-weight: 700;
+}
+.shop-item-title{
+    text-align: center;
+}
+.cart-item-button{
+    font-size: 2rem;
+   
+}
+.cart-quantity-input{
+    height: rem;
+    width: 3rem;
+}
 .cart-cards {
     box-shadow: 2px 24px 39px -13px rgba(0, 0, 0, 0.2);
     -webkit-box-shadow: 2px 24px 39px -13px rgba(0, 0, 0, 0.2);
@@ -103,8 +126,62 @@ i {
     border: 1px solid rgba(0, 0, 0, 0.014);
 }
 
+.cart-cards:hover{
+ transition: all 300ms ease-in-out;
+  border: 1px solid #FF7B00 !important;
+}
+
+.cart-cards:focus{
+ background-color: #FF7B00 !important;
+}
+
 .cart-item-cols{
     margin: 0.5rem 0;
+}
+
+.cash-out{
+    margin-top: 2rem;
+    width: 100%;
+    height: 4rem;
+    border-radius: 0.3rem;
+    background-color: rgb(185, 185, 185);
+    padding: 5%;
+}
+
+.text-alines{
+    text-align: right;
+}
+
+.dash-line{
+    border-top: 2px dashed;
+    margin: 1rem 3%;
+
+}
+
+
+.cart-text-styles{
+    font-weight: bold;
+    color: black;
+}
+
+.pay-btn{
+    width: 100% !important;
+    background-color: #FF7B00;
+    border: none;
+}
+
+.pay-btn:hover{
+    width: 100% !important;
+    background-color: #FFC43D;
+    border: none;
+
+   
+
+}
+
+.pay-btn-holder{
+    margin: 1rem auto;
+   
 }
 
 
@@ -135,4 +212,7 @@ color: #FF7B00;
 .item-cart{
 
     border-radius: 0rem 1.5rem 0rem 1.5rem;
+}
+.product-item-container{
+    margin: 2.5rem 0 ;
 }
