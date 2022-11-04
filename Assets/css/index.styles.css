@@ -110,4 +110,29 @@ i {
 
 .head-text{
 color: #FF7B00;
+
+}
+.btn-main{
+    background-color: #FF7B00;
+    border: none;
+    font-weight: 500;
+}
+.btn-main:hover{
+    background-color: #FCA311;
+}
+.navBtn-main{
+    color: #FF7B00;
+    border: none;
+    font-weight: 500;
+}
+.navBtn-main:hover{
+    color: #FCA311;
+}
+.card-img-top{
+    height: 13rem;
+    border-radius: 0rem 1.5rem 0rem 1.5rem;
+}
+.item-cart{
+
+    border-radius: 0rem 1.5rem 0rem 1.5rem;
 }
