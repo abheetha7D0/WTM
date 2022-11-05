@@ -1,0 +1,13 @@
+@media (max-width: 1024px) {
+    .bg-curcle {
+       
+
+        position: absolute;
+        width: 1128px;
+        height: 1128px;
+        left: 550px;
+        top: -500px;
+    
+       
+    }
+}

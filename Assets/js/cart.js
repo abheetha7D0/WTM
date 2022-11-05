@@ -7,7 +7,7 @@ if (document.readyState == 'loading') {
 
 
 function ready() {
-   
+
     var quantityInputs = document.getElementsByClassName('cart-quantity-input')
     for (var i = 0; i < quantityInputs.length; i++) {
         var input = quantityInputs[i]
@@ -58,26 +58,26 @@ function addToCartClicked(event) {
 }
 
 function addItemToCart(title, price, imageSrc) {
-   
+
     var cartRow = document.createElement('div')
     cartRow.classList.add('cart-row')
     var cartItems = document.getElementsByClassName('cart-items')[0]
     var cartItemNames = cartItems.getElementsByClassName('cart-item-title')
 
-    
+
     for (var i = 0; i < cartItemNames.length; i++) {
         if (cartItemNames[i].innerText == title) {
             alert('This item is already added to the cart')
             return
         }
-    } 
+    }
     var cartRowContents = `
-    <div class="col-lg-12 cart-item-cols">
+                        <div class="col-lg-12 cart-item-cols">
                             <div class="card cart-cards">
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col">
-                                            <div class="item-img"><img class="item-img" src="Assets/Img/hand.avif"
+                                            <div class="item-img shop-item-image"><img class="item-img" src="${imageSrc}"
                                                     alt=""></div>
                                         </div>
                                         <div class="col">
@@ -86,12 +86,7 @@ function addItemToCart(title, price, imageSrc) {
                                                     <h3 class="cart-item-title">${title}<h3>
                                                     </div>
                                                 
-                                                    <i class='bx bx-minus-circle cart-item-button d-md-flex justify-content-md-end'></i>
-                                                
-                                                
                                             </div>
-
-
                                             <div class="row">
                                                 <div class="col-8">
                                                     <h5 class="cart-price cart-column">${price}</h5>
@@ -99,15 +94,18 @@ function addItemToCart(title, price, imageSrc) {
                                                 <div class="col">
                                                     <input class="cart-quantity-input" type="number" value="1">
                                                 </div>
-
                                             </div>
+                                            <i type="button" style="color:#FF7B00; font-size:2rem;" class='bx bx-minus-circle btn btn-remove'></i>
                                         </div>
+                                        
                                     </div>
+                                   
                                 </div>
                             </div>
                         </div>`
-    cartRow.innerHTML = cartRowContents
-    cartItems.append(cartRow)
+                        cartRow.innerHTML = cartRowContents
+                        cartItems.append(cartRow)
+                        cartRow.getElementsByClassName('btn-remove')[0].addEventListener('click', removeCartItem)
     cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged)
 }
 

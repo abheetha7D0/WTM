@@ -3,17 +3,17 @@ body {
 }
 
 section {
-    width: 100%;
+    width: 100vw;
     height: 60rem;
 }
 
 
-.nav-bar {
-    margin-top: 2rem;
-    z-index: 999;
-    position: fixed;
+.sticky {
+    background: #FFC43D;
+    /* backdrop-filter: blur(32px); */
+    padding: 15px 0;
+    box-shadow: 0px 3px 10px 1px rgb(1 64 73 / 64%);
 }
-
 .navbar-brand {
     margin-left: 4rem;
     font-weight: bold;
@@ -32,14 +32,12 @@ section {
 .navigation-bar li a,
 i {
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 
 .bg-curcle {
     border-radius: 50rem 50rem 50rem 50rem;
-
-
 
     position: absolute;
     width: 1128px;
@@ -48,9 +46,6 @@ i {
     top: -360px;
 
     background-color: #FFC43D;
-
-
-
 }
 
 .header-container {
@@ -60,11 +55,12 @@ i {
 }
 
 .header-container-text {
+    margin-top: 3rem;
     margin-left: 6rem;
 }
 
 .header-container>h1 {
-    font-size: 40px;
+    font-size: 3rem;
     font-weight: 700;
 }
 
@@ -80,7 +76,7 @@ i {
 .header-container-photo {
     display: flex;
     left: 0;
-    margin-top: -3rem;
+    margin-top: -6rem;
     width: 25rem;
     height: 25rem;
 }
@@ -100,7 +96,7 @@ i {
 }
 
 .navBtn-main:hover {
-    color: #FCA311;
+    color: #FF7B00;
 }
 
 #aboutUs {
@@ -126,6 +122,15 @@ background-color: white;
 }
 .product-head-text{
   margin-top: 5rem;
+}
+.wooden-circle-2{
+    width: 20rem;
+    height: 20rem;
+    transform: scaleX(-1);
+    position: absolute;
+    display: flex;
+    margin-left: 45rem;
+    bottom: -65rem;
 }
 .bg-curcle-3{
     border-radius: 50rem 50rem 50rem 50rem;
@@ -169,6 +174,7 @@ background-color: white;
 
 .card-styl {
     border-radius: 0rem 1.5rem 0rem 1.5rem;
+    box-shadow: 2px 24px 39px -13px rgba(0, 0, 0, 0.3);
 }
 
 .card-body {
@@ -220,6 +226,7 @@ background-color: white;
 }
 
 .shop-item-button {
+    margin-top: -2.5rem;
     color: #FF7B00;
     font-size: 3rem;
 
@@ -327,18 +334,23 @@ background-color: white;
 .btn-main:hover {
     background-color: #FCA311;
 }
-
-
-.card-img-top {
-    height: 14rem;
+.shop-item-image{
+    height: 12rem;
     border-radius: 0rem 1.5rem 0rem 1.5rem;
 }
 
 .item-cart {
-
+    box-shadow: 2px 24px 39px -13px rgba(0, 0, 0, 0.2);
     border-radius: 0rem 1.5rem 0rem 1.5rem;
 }
-
+.item-cart:hover {
+    box-shadow: 2px 24px 39px -13px rgba(0, 0, 0, 0.4);
+   
+}
 .product-item-container {
     margin: 2.5rem 0;
+}
+
+.see-more-btn{
+    margin-top: 3rem;
 }
