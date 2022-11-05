@@ -17,7 +17,7 @@
 
     <div class="container-fluid home-container">
 
-        <section class="section-01">
+        <section class="section-01" id="home">
 
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid nav-bar">
@@ -29,16 +29,17 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto navigation-bar">
                             <li class="nav-item">
-                                <a class="nav-link navBtn-main" aria-current="page" href="#">Home</a>
+                                <a class="nav-link navBtn-main" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link navBtn-main" href="#aboutUs">AboutUs</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link navBtn-main" href="#">Product</a>
+                                <a class="nav-link navBtn-main" href="#products">Product</a>
                             </li>
+
                             <li class="nav-item ">
-                                <a class="nav-link navBtn-main" href="#">AboutUs</a>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="nav-link navBtn-main ">ContactUs</a>
+                                <a class="nav-link navBtn-main " href="#ContactUs">ContactUs</a>
                             </li>
                             <li class="nav-item ">
                                 <a class="nav-link navBtn-main"><i class='bx bx-cart-alt' type="button"
@@ -54,28 +55,30 @@
             </nav>
 
             <div class="row">
-                
+
                 <div class="col">
-                   
+
                     <div class="container header-container p-5">
-                        <h1> Test Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. </h1>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas neque a unde libero sit nulla
+                        <h1 class="header-container-text"> Test Lorem ipsum dolor sit amet <br> consectetur adipisicing
+                            elit. </h1>
+                        <p class="header-container-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
+                            neque a unde libero sit nulla
                             atque nihil <br> fugit nisi, praesentium error impedit repellat quae quasi? <br> Nulla autem
                             exercitationem excepturi quisquam.</p>
 
-                        <button class="btn btn-primary btn-main">Order Here</button>
+                        <button class="btn btn-primary btn-main header-container-text">Order Here</button>
 
                     </div>
-                    <div class="container header-container-photo "> 
-                       
+                    <div class="container header-container-photo ">
+
                         <img src="../\Assets\Img\circle-1.png" alt="">
                     </div>
                 </div>
 
                 <div class="col">
-                    <div class="container p-5"> 
+                    <div class="container p-5">
                         <div class="bg-curcle"> </div>
-                       <img src="Assets/Img/car.png" class="img-fluid car-img" alt="carimg">
+                        <img src="Assets/Img/car.png" class="img-fluid car-img" alt="carimg">
                     </div>
 
                 </div>
@@ -286,40 +289,53 @@
 
             <!-- About us -->
 
-            <section>
+            <section id="aboutUs">
                 <div class="row ">
-                    <div class="col-5"></div>
-                    <div class="col m-4">
-                        <h2 class="head-text">AboutUs</h2>
-                        <h1>Lorem ipsum dolor
+                    <div class="col-5">
+                     
+                        <div class="bg-curcle-2"><div class="bg-curcle-3"> </div> </div>
+                           <img class="aboutus-img" src="../Assets/Img/hi.png" alt="">
+                    </div>
+                    <div class="col m-4 about-us-text">
+                        <h2 class="head-text about-us-text">AboutUs</h2>
+                        <h1 class="about-us-text-head" >Lorem ipsum dolor
                             sit amet
-                        </h1>
-                        <div class="col-7 d-grid gap-2 d-md-flex justify-content-md-end">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus commodo malesuada ut
-                                orci.
-                                ellus sit semper aliquet erat pretium at tortor integer Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit. Risus commodo malesuada ut orci.
-                                ellus sit semper aliquet erat pretium at tortor integer Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit. Risus commodo malesuada ut orci.
-                                ellus sit semper aliquet erat pretium at tortor integer
-                            </p>
+                        </h1 >
+                        
+                            <div class="col-8 about-us-text">
 
-                        </div>
+                                <div class="col-12 ">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus commodo malesuada
+                                        ut
+                                        orci.
+                                        ellus sit semper aliquet erat pretium at tortor integer Lorem ipsum dolor sit
+                                        amet,
+                                        consectetur adipiscing elit. Risus commodo malesuada ut orci.
+                                        ellus sit semper aliquet erat pretium at tortor integer Lorem ipsum dolor sit
+                                        amet,
+                                        consectetur adipiscing elit. Risus commodo malesuada ut orci.
+                                        ellus sit semper aliquet erat pretium at tortor integer
+                                    </p>
+
+                                </div>
 
 
-                        <div class="col-7 d-grid gap-2 d-md-flex justify-content-md-end p-3 ">
-                            <button class="btn btn-primary justify-content-md-end btn-main">Contact Us</button>
+                                <div class="col-12 d-grid gap-2 d-md-flex justify-content-md-end p-3 ">
+                                    <button class="btn btn-primary justify-content-md-end btn-main">Contact Us</button>
 
-                        </div>
+                                </div>
+                            </div>
+                        
+
 
                     </div>
                 </div>
             </section>
             <!-- Products -->
-            <section>
-                <div class="row">
-                    <h2 class="head-text d-md-flex justify-content-center ">Products</h2>
+            <section id="products">
+                <div class="row ">
+                    <h2 class="head-text product-head-text d-md-flex justify-content-center ">Products</h2>
                     <h3 class="d-md-flex justify-content-center ">EXPLORE OUR BEST TOYS</h3>
                     <p class="d-md-flex justify-content-center ">Lorem ipsum, dolor sit amet consectetur adipisicing
                         elit. Voluptas a, nesciunt corrupti sunt molestias doloremque id magni itaque optio, eos cum
