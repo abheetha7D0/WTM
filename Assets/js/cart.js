@@ -84,16 +84,18 @@ function addItemToCart(title, price, imageSrc) {
                                             <div class="col">
                                                 <div class="col">
                                                     <h3 class="cart-item-title">${title}<h3>
-                                                    </div>
-                                                
+                                                </div>
                                             </div>
+
                                             <div class="row">
+                                            
                                                 <div class="col-8">
                                                     <h5 class="cart-price cart-column">${price}</h5>
                                                 </div>
                                                 <div class="col">
                                                     <input class="cart-quantity-input" type="number" value="1">
                                                 </div>
+
                                             </div>
                                             <i type="button" style="color:#FF7B00; font-size:2rem;" class='bx bx-minus-circle btn btn-remove'></i>
                                         </div>
