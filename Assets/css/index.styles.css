@@ -631,6 +631,11 @@ i {
     height: 20px;
     margin: 0 5px;
 }
+.Copyright-name{
+    color: #FF7B00;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 @media screen and (max-width: 520px) {
     .screen-body {
