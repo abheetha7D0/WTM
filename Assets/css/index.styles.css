@@ -43,10 +43,10 @@ i {
     border-radius: 50rem 50rem 50rem 50rem;
 
     position: absolute;
-    width: 1128px;
-    height: 1128px;
-    left: 1250px;
-    top: -360px;
+    width: 70.5rem;
+    height: 70.5rem;
+    left: 78.125rem;
+    top: -22.5rem;
 
     background-color: #FFC43D;
 }
@@ -365,7 +365,7 @@ i {
 }
 
 .product-item-container {
-    margin: 2.5rem 0;
+    margin-bottom: 2rem;
 }
 
 .see-more-btn {
