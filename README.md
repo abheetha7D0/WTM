@@ -13,25 +13,30 @@ Github Page :-  https://abheetha7d0.github.io/WTM/
 
 This Is Just A Basic Overview Only
 
-![Image of Home](Assets/Img/readme/1.png)
 <center>Home</center>
 
-![Image Of About](Assets/Img/readme/cart.png)
+![Image of Home](Assets/Img/readme/1.png)
+
 <center>Cart</center>
 
-![Image Of About](Assets/Img/readme/2.png)
+![Image Of About](Assets/Img/readme/cart.png)
+
 <center>AboutUs</center>
 
+![Image Of About](Assets/Img/readme/2.png)
 
-
-![Image Of Project](Assets/Img/readme/3.png)
 <center>Products</center>
 
-![Image Of Education](Assets/Img/readme/6.png)
+![Image Of Project](Assets/Img/readme/3.png)
+
 <center>testamonial</center>
 
-![Image Of Gallery](Assets/Img/readme/5.png)
+![Image Of Education](Assets/Img/readme/6.png)
+
 <center>contact us</center>
 
-![Image Of Contact](Assets/Img/readme/6.png)
+![Image Of Gallery](Assets/Img/readme/4.png)
+
 <center>Footer</center>
+
+![Image Of Contact](Assets/Img/readme/6.png)
