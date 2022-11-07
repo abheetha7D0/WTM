@@ -2,6 +2,8 @@
 
 This Is The Repo For Sri Lankan Based Wooden Toys Manufacturer Web Site.
 
+Tech Stack  :- Boostrap, HTML, CSS, JS
+
 Mockup      :-  https://www.figma.com/file/qjJh8whI131CsUatdXvqWN/WTM?node-id=95%3A109
 
 Github Page :-  https://abheetha7d0.github.io/WTM/
