@@ -8,6 +8,8 @@ Mockup      :-  https://www.figma.com/file/qjJh8whI131CsUatdXvqWN/WTM?node-id=95
 
 Github Page :-  https://abheetha7d0.github.io/WTM/
 
+Sample video:-  https://youtu.be/4mIdFbVnK74
+
 
 # <u>Site Overview.</u>
 
